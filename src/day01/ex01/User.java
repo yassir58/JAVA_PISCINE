@@ -1,27 +1,22 @@
-package day01.ex0;
-
-import java.util.UUID;
+package day01.ex01;
 
 public class User {
-
     static int userCount = 0;
-    private UUID id;
+    private int id;
     private String name;
     private double balance;
 
     User (String name, double balance){
         userCount++;
-        setId();
         setBalance(balance);
+        this.id = UserIdsGenerator.getInstance().generateId();
         setName(name);
     }
 
-    public UUID getId() {
+    public int getId() {
         return id;
     }
-    public void setId() {
-        this.id = UUID.randomUUID();
-    }
+
 
     public String getName() {
         return name;
