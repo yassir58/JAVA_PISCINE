@@ -28,6 +28,12 @@ public class Program {
             name = scanner.nextLine();
             i++;
         }
+        System.out.println("You entered:");
+        for (int j = 0; j < i; j++){
+            System.out.println(names[j]);
+        }
+        scanner.close();
+
 
 
     }
