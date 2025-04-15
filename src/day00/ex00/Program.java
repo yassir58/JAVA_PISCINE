@@ -1,6 +1,6 @@
+package day00;
 
-
-public class EX00 {
+public class Program {
 
     static int number = 479598 ;
     static int result = 0;
@@ -11,7 +11,6 @@ public class EX00 {
            number  = number / 10;
        }
        result += number;
-       System.out.println("the result : ");
        System.out.println(result);
 
    }

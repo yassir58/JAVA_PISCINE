@@ -1,6 +1,8 @@
+package day00.ex04;
+
 import java.util.Scanner;
 
-public class EX04 {
+public class Program {
 
 
     public static void printColumn (char c, int count){

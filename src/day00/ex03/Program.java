@@ -1,8 +1,9 @@
-import java.util.ArrayList;
+package day00.ex03;
+
 import java.util.Scanner;
 
 
-public class EX03 {
+public class Program {
 
 
     static int getNextIntMin (String input){

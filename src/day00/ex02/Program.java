@@ -1,7 +1,8 @@
-import java.util.Scanner;
+package day00.ex02;
+
 import java.util.Scanner;
 
-public class EX02 {
+public class Program {
 
     public static int sum (int number){
         int result = 0;
